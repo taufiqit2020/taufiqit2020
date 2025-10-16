@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taufiqurrahman, S.Kom — Portfolio</title>
+  <style>
+    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin:0; color:#0f172a; background:#f8fafc}
+    .wrap {max-width:920px; margin:0 auto; padding:32px}
+    header {text-align:center; padding:40px 0}
+    h1 {margin:0 0 8px}
+    .grid {display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
+    .card {background:#fff; border-radius:16px; padding:18px; box-shadow:0 6px 18px rgba(2,8,23,.06);}
+    a {color:#0ea5e9; text-decoration:none}
+    footer {text-align:center; color:#475569; padding:24px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Taufiqurrahman, S.Kom</h1>
+      <p>Web Developer • Edu Tech • Open Source</p>
+      <p><a href="https://github.com/taufiqit2020">GitHub</a> · <a href="mailto:you@example.com">Email</a> · <a href="https://www.youtube.com/@indosantai">YouTube</a></p>
+    </header>
+
+    <section>
+      <h2>Proyek Unggulan</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Zakat Calculator</h3>
+          <p>Hitung zakat penghasilan mengikuti harga emas terbaru.</p>
+          <p><a href="https://github.com/taufiqit2020/zakat-calculator">Lihat Repo</a></p>
+        </div>
+        <div class="card">
+          <h3>Indosantai Portfolio</h3>
+          <p>Portfolio + blog Markdown untuk konten film & edukasi.</p>
+          <p><a href="https://github.com/taufiqit2020/indosantai-portfolio">Lihat Repo</a></p>
+        </div>
+        <div class="card">
+          <h3>SD Website Template</h3>
+          <p>Template website sekolah dasar (landing, berita, galeri).</p>
+          <p><a href="https://github.com/taufiqit2020/sd-sekolah-website">Lihat Repo</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Sarjana Komputer dengan fokus pada Laravel, JavaScript, dan edukasi teknologi.
+         Tertarik kolaborasi untuk proyek sosial dan pendidikan.</p>
+    </section>
+
+    <footer>© <span id="y"></span> Taufiqurrahman</footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
